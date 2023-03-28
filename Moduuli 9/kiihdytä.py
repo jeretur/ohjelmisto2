@@ -26,7 +26,3 @@ auto.kiihdyta(70)
 auto.kiihdyta(50)
 print(f'Rekkari: {auto.rekisteritunnus} Huippunopeus: {auto.huippunopeus} \n'
       f'Nopeus: {auto.nopeus} Matka: {auto.matka}')
-
-auto.kiihdyta()
-print(f'Rekkari: {auto.rekisteritunnus} Huippunopeus: {auto.huippunopeus} \n'
-      f'Nopeus: {auto.nopeus} Matka: {auto.matka}')

@@ -49,7 +49,6 @@ class Kilpailu:
             auto.kiihdyta(random.randint(-10, 15))
             auto.kulje(1)
 
-
     def tulosta_tilanne(self):
         if self.aika % 10 == 0 or self.kilpailu_ohi():
             print(f'\nAika: {self.aika}h')

@@ -24,6 +24,7 @@ class Auto:
         kuljettu = self.nopeus * matka_muutos
         uusi_matka = self.matka + kuljettu
         self.matka = uusi_matka
+
 lista = []
 i = 1
 moi = int(input('Syötä numero 1, jotta voit jatkaa: '))
