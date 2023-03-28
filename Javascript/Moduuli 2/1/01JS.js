@@ -3,7 +3,7 @@ let a = 0
 
 while (a < 5) {
     const i = +prompt('Syötä numero: ')
-    lista[a]=i;
+    lista[a] = i;
     a++
 }
 console.log(lista)
