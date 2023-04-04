@@ -16,8 +16,10 @@ const students = [
 
 const target = document.querySelector('#target')
 
-const option = document.createElement("option");
-option.innerText = 'Pekka';
-option.value = 2342344;
+for (let student of students) {
+    const option = document.createElement("option");
+    option.innerText = student.name;
+    option.value = student.id;
 
-target.appendChild(option);
+    target.appendChild(option);
+}
