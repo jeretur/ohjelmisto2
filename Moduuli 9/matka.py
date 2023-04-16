@@ -18,10 +18,12 @@ class Auto:
                 self.nopeus = self.huippunopeus
             else:
                 self.nopeus = uusinopeus
+
     def kulje(self, matka_muutos):
         kuljettu = self.nopeus * matka_muutos
         uusi_matka = self.matka + kuljettu
         self.matka = uusi_matka
+
 
 auto = Auto("ABC-123", 142, 60, 0)
 auto.kulje(1.5)
